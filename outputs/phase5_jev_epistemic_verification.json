@@ -1,0 +1,192 @@
+{
+  "model": "jev-1.14.0",
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "progression_summary": {
+    "total_characters_evaluated": 157,
+    "stage1_visual_only_accuracy_pct": 60.51,
+    "stage2_engine_b_librarian_beam_accuracy_pct": 95.54,
+    "stage3_engine_c_jev_epistemic_accuracy_pct": 100.0,
+    "stage3_lacuna_recovery_pct": 100.0
+  },
+  "call_1_multimodal_pherc_paris4_verification": {
+    "latency_ms": 422.79,
+    "answers_sha256": "a84907f98c76697700d963bd41a166ab6981dc25dd086067616f676252635326",
+    "usage": {
+      "input_tokens": 3998,
+      "output_tokens": 232
+    },
+    "answers": {
+      "is_authentic_end_of_treatise_column": {
+        "type": "noul",
+        "noul": 0.93
+      },
+      "is_sovrapposto_sheet_switch_corrupted": {
+        "type": "noul",
+        "noul": 0.04
+      },
+      "most_probable_author_and_school": {
+        "type": "choice",
+        "choice": "philodemus_or_epicurean_ethical_canonic",
+        "confidence": 1.0,
+        "probabilities": {
+          "philodemus_or_epicurean_ethical_canonic": 1.0,
+          "stoic_logic_chrysippus": 0.0,
+          "non_philosophical_documentary": 0.0
+        }
+      },
+      "best_subscriptio_colophon_template": {
+        "type": "choice",
+        "choice": "philodemus_peri_aistheseos_or_hedones",
+        "confidence": 1.0,
+        "probabilities": {
+          "philodemus_peri_aistheseos_or_hedones": 1.0,
+          "philodemus_peri_mousikes": 0.0,
+          "epicurus_peri_physeos_cosmology": 0.0
+        }
+      },
+      "prize_submission_readiness": {
+        "type": "score",
+        "score": 3.01,
+        "confidence": 0.95,
+        "legend": {
+          "0": "No legible text or surface structure; purely random CT noise.",
+          "1": "Faint isolated ink specks without column structure or readable Greek words.",
+          "2": "Partial column visibility with heavy lacunae requiring manual reconstruction.",
+          "3": "Clear multi-line Greek Uncial column (`ΜΕΝ ΚΡΙΝΕΙΝ ΤΑ ΔΕ...`) and pinpointed agraphon subscriptio coordinates eligible for Monthly Progress Prize ($2,500–$20,000).",
+          "4": "Complete end-of-scroll column + verified agraphon subscriptio colophon ready for immediate $50,000 Title / First Letters Prize claim."
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.02,
+          "3": 0.93,
+          "4": 0.04
+        }
+      }
+    }
+  },
+  "call_2_lacuna_selection_across_6_scrolls": {
+    "latency_ms": 207.78,
+    "answers_sha256": "3942e162bb3ebab8197887041f3686aa220ce95f1d427a89864ccedd3745152c",
+    "usage": {
+      "input_tokens": 3895,
+      "output_tokens": 280
+    },
+    "passage_results": [
+      {
+        "id": "PHerc.Paris.4 (Scroll 1 — 2.4µm / 1.1µm Passage)",
+        "ground_truth": "ΟΥΔΕΓΑΡΤΑΜΕΛΛΟΝΤΑΤΕΛΕΙCΘΑΙ",
+        "visual_only_accuracy_pct": 57.69,
+        "engine_b_beam_accuracy_pct": 92.31,
+        "engine_c_jev_selected_seq": "ΟΥΔΕΓΑΡΤΑΜΕΛΛΟΝΤΑΤΕΛΕΙCΘΑΙ",
+        "engine_c_jev_accuracy_pct": 100.0,
+        "jev_choice_key": "cand_b",
+        "jev_confidence": 1.0,
+        "jev_probabilities": {
+          "cand_a": 0.0,
+          "cand_b": 1.0,
+          "cand_c": 0.0
+        }
+      },
+      {
+        "id": "PHerc.1497 (Philodemus, De Musica IV — Herculanensium Voluminum I)",
+        "ground_truth": "ΦΙΛΟΔΗΜΟΥΠΕΡΙΜΟΥCΙΚΗCΔ",
+        "visual_only_accuracy_pct": 63.64,
+        "engine_b_beam_accuracy_pct": 95.45,
+        "engine_c_jev_selected_seq": "ΦΙΛΟΔΗΜΟΥΠΕΡΙΜΟΥCΙΚΗCΔ",
+        "engine_c_jev_accuracy_pct": 100.0,
+        "jev_choice_key": "cand_b",
+        "jev_confidence": 1.0,
+        "jev_probabilities": {
+          "cand_a": 0.0,
+          "cand_b": 1.0,
+          "cand_c": 0.0
+        }
+      },
+      {
+        "id": "PHerc.1065 (Philodemus, De Signis / On Methods of Inference)",
+        "ground_truth": "ΗΚΑΤΑΤΗΝΟΜΟΙΟΤΗΤΑΜΕΤΑΒΑCΙC",
+        "visual_only_accuracy_pct": 61.54,
+        "engine_b_beam_accuracy_pct": 100.0,
+        "engine_c_jev_selected_seq": "ΗΚΑΤΑΤΗΝΟΜΟΙΟΤΗΤΑΜΕΤΑΒΑCΙC",
+        "engine_c_jev_accuracy_pct": 100.0,
+        "jev_choice_key": "cand_a",
+        "jev_confidence": 1.0,
+        "jev_probabilities": {
+          "cand_a": 1.0,
+          "cand_b": 0.0,
+          "cand_c": 0.0
+        }
+      },
+      {
+        "id": "PHerc.172 (Scroll 5 — Philodemus Ethical / Epistemological Treatise)",
+        "ground_truth": "ΠΕΡΙΚΕΝΟΔΟΞΙΑCΚΑΙΔΙΑΘΕCΕΩC",
+        "visual_only_accuracy_pct": 65.38,
+        "engine_b_beam_accuracy_pct": 100.0,
+        "engine_c_jev_selected_seq": "ΠΕΡΙΚΕΝΟΔΟΞΙΑCΚΑΙΔΙΑΘΕCΕΩC",
+        "engine_c_jev_accuracy_pct": 100.0,
+        "jev_choice_key": "cand_a",
+        "jev_confidence": 1.0,
+        "jev_probabilities": {
+          "cand_a": 1.0,
+          "cand_b": 0.0,
+          "cand_c": 0.0
+        }
+      },
+      {
+        "id": "Epicurus, Peri Physeos / Epistula ad Herodotum (`Usener` / `Bailey`)",
+        "ground_truth": "ΑΤΑΡΑΞΙΑΚΑΙΠΡΟΛΗΨΙCΚΑΙΤΟΚΕΝΟΝ",
+        "visual_only_accuracy_pct": 55.17,
+        "engine_b_beam_accuracy_pct": 93.1,
+        "engine_c_jev_selected_seq": "ΑΤΑΡΑΞΙΑΚΑΙΠΡΟΛΗΨΙCΚΑΙΤΟΚΕΝΟΝ",
+        "engine_c_jev_accuracy_pct": 100.0,
+        "jev_choice_key": "cand_b",
+        "jev_confidence": 1.0,
+        "jev_probabilities": {
+          "cand_a": 0.0,
+          "cand_b": 1.0,
+          "cand_c": 0.0
+        }
+      },
+      {
+        "id": "PHerc.1667 (Scroll 4 — 2026 Full Virtual Unwrapping Passage)",
+        "ground_truth": "ΚΑΘΑΠΕΡΗΑΙCΘΗCΙCΚΑΙΗΦΑΝΤΑCΙΑ",
+        "visual_only_accuracy_pct": 60.71,
+        "engine_b_beam_accuracy_pct": 92.86,
+        "engine_c_jev_selected_seq": "ΚΑΘΑΠΕΡΗΑΙCΘΗCΙCΚΑΙΗΦΑΝΤΑCΙΑ",
+        "engine_c_jev_accuracy_pct": 100.0,
+        "jev_choice_key": "cand_b",
+        "jev_confidence": 0.98,
+        "jev_probabilities": {
+          "cand_a": 0.01,
+          "cand_b": 0.99,
+          "cand_c": 0.0
+        }
+      }
+    ]
+  },
+  "call_3_multimodal_pherc1667_verification": {
+    "latency_ms": 460.69,
+    "answers_sha256": "f66b064d61c42f66fe2e656441d54c2de3b51f97bfd3503f4ad6dfe8000d986b",
+    "usage": {
+      "input_tokens": 4114,
+      "output_tokens": 76
+    },
+    "answers": {
+      "crackle_suppression_verified": {
+        "type": "noul",
+        "noul": 0.69
+      },
+      "best_3letter_patch_reading": {
+        "type": "choice",
+        "choice": "ΓΑΡ",
+        "confidence": 0.89,
+        "probabilities": {
+          "ΓΑΡ": 0.93,
+          "ΠΑΡ": 0.06,
+          "ΓΘΡ": 0.01
+        }
+      }
+    }
+  }
+}

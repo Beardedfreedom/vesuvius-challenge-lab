@@ -1,0 +1,298 @@
+{
+  "cli_version": "2.0.0-oct2026-prize-edition",
+  "esrf_bm18_1p129um_physics": {
+    "voxel_size_um": 1.129,
+    "photon_energy_kev": 78.0,
+    "wavelength_nm": 0.015895,
+    "propagation_distance_m": 0.225,
+    "fresnel_number_F": 0.3564,
+    "propagation_regime": "Sub-Fresnel / Intermediate Inline Holographic Regime (CTF / Multi-Fringe, F < 1)",
+    "paganin_delta_beta": 500.0,
+    "paganin_diffusion_length_um": 11.93,
+    "unsharp_sigma_voxels": 2.5,
+    "unsharp_physical_sigma_um": 2.82,
+    "nyquist_frequency_cycles_per_mm": 442.9,
+    "peak_passband_frequency_cycles_per_mm": 22.1,
+    "peak_passband_mtf_gain": 0.3461,
+    "composite_bm18_mtf_profile": {
+      "22.1_cycles_per_mm": 0.3461,
+      "44.3_cycles_per_mm": 0.1715,
+      "88.6_cycles_per_mm": 0.0851,
+      "155.0_cycles_per_mm": 0.0361,
+      "221.4_cycles_per_mm": 0.0181,
+      "332.2_cycles_per_mm": 0.0081,
+      "442.9_cycles_per_mm": 0.0045
+    },
+    "recommended_3d_structure_tensor_scales_vx": {
+      "derivative_sigma0_vx": 1.2,
+      "integration_rho_vx": 2.38
+    }
+  },
+  "esrf_bm18_2p400um_physics": {
+    "voxel_size_um": 2.4,
+    "photon_energy_kev": 78.0,
+    "wavelength_nm": 0.015895,
+    "propagation_distance_m": 0.22,
+    "fresnel_number_F": 1.6471,
+    "propagation_regime": "Near-Field Edge-Enhancement (Transport-of-Intensity / TIE Regime, F >= 1)",
+    "paganin_delta_beta": 1000.0,
+    "paganin_diffusion_length_um": 16.68,
+    "unsharp_sigma_voxels": 1.2,
+    "unsharp_physical_sigma_um": 2.88,
+    "nyquist_frequency_cycles_per_mm": 208.3,
+    "peak_passband_frequency_cycles_per_mm": 10.4,
+    "peak_passband_mtf_gain": 0.4891,
+    "composite_bm18_mtf_profile": {
+      "10.4_cycles_per_mm": 0.4891,
+      "20.8_cycles_per_mm": 0.2214,
+      "41.7_cycles_per_mm": 0.099,
+      "72.9_cycles_per_mm": 0.056,
+      "104.2_cycles_per_mm": 0.0359,
+      "156.2_cycles_per_mm": 0.0183,
+      "208.3_cycles_per_mm": 0.0105
+    },
+    "recommended_3d_structure_tensor_scales_vx": {
+      "derivative_sigma0_vx": 0.8,
+      "integration_rho_vx": 1.8
+    }
+  },
+  "sovrapposto_audit_authentic_pherc_paris4": {
+    "input_greek_stream": "ΜΕΝΚΡΙΝΕΙΝΤΑΔΕΚΑΙΤΩΝΕΞΩΚΑΙΕΝΗΜΙΝΝΟΗΘΗΝΑΙΚΑΘΗΔΟΝΗΝ",
+    "length_chars": 49,
+    "mean_librarian_log_prob_per_char": -1.898,
+    "worst_transition_log_prob": -5.516,
+    "worst_transition_index": 22,
+    "worst_transition_context": "ΝΕΞΩΚΑΙ",
+    "sovrapposto_sheet_switch_alert": false,
+    "verdict": "PASS: Coherent Philodemean/Epicurean Greek stream (Zero sheet-switch anomalies)."
+  },
+  "sovrapposto_audit_simulated_merger": {
+    "input_greek_stream": "ΜΕΝΚΡΙΝΕΙΝΤΑΔΕΧΨΖΘΚΛΜΠΡΤΩΝΕΞΩΚΑΙΕΝΗΜΙΝ",
+    "length_chars": 38,
+    "mean_librarian_log_prob_per_char": -3.293,
+    "worst_transition_log_prob": -8.417,
+    "worst_transition_index": 16,
+    "worst_transition_context": "ΕΧΨΖΘΚΛ",
+    "sovrapposto_sheet_switch_alert": true,
+    "verdict": "WARNING: Potential Sovrapposto/Sottoposto wrap-jump detected!"
+  },
+  "phase7_pherc_paris4_5station_1p129um_mosaic": {
+    "reading_order_stations": [
+      "Sub#5",
+      "Sub#3",
+      "Sub#2",
+      "Sub#1",
+      "Sub#4"
+    ],
+    "hotspots_all5_telemetry": [
+      {
+        "id": "Sub#1",
+        "role": "Lower-Right Subscriptio Line 2 (Title/Book Number Zone)",
+        "l2_yx": [
+          2109,
+          9186
+        ],
+        "xyz_2p4um": [
+          20304.9,
+          14578.2,
+          42772.3
+        ],
+        "xyz_1p129um": [
+          30531,
+          19760,
+          31161
+        ],
+        "stream_sec": 4.042,
+        "mps_compute_ms": 853.73,
+        "peak_z_slice": 20,
+        "peak_z_depth_um": 22.58,
+        "dehalo_snr_gain": 0.4893
+      },
+      {
+        "id": "Sub#2",
+        "role": "Mid-Right Subscriptio Line 1–2 Transition (ΠΕΡΙ ... Zone)",
+        "l2_yx": [
+          1630,
+          9342
+        ],
+        "xyz_2p4um": [
+          16636.3,
+          15547.3,
+          49395.5
+        ],
+        "xyz_1p129um": [
+          22707,
+          21749,
+          45222
+        ],
+        "stream_sec": 3.665,
+        "mps_compute_ms": 231.31,
+        "peak_z_slice": 30,
+        "peak_z_depth_um": 33.87,
+        "dehalo_snr_gain": 0.4861
+      },
+      {
+        "id": "Sub#3",
+        "role": "Upper-Right Subscriptio Line 1 Right (Genitive Author Ending -ΜΟΥ)",
+        "l2_yx": [
+          1236,
+          9349
+        ],
+        "xyz_2p4um": [
+          16872.1,
+          17200.6,
+          55049.1
+        ],
+        "xyz_1p129um": [
+          23157,
+          25294,
+          57223
+        ],
+        "stream_sec": 4.211,
+        "mps_compute_ms": 231.33,
+        "peak_z_slice": 50,
+        "peak_z_depth_um": 56.45,
+        "dehalo_snr_gain": 0.4873
+      },
+      {
+        "id": "Sub#4",
+        "role": "Left-Margin Agraphon Koronis / Stichometric Marker Zone",
+        "l2_yx": [
+          2327,
+          7635
+        ],
+        "xyz_2p4um": [
+          19277.3,
+          13710.2,
+          39308.6
+        ],
+        "xyz_1p129um": [
+          28376,
+          17872,
+          23807
+        ],
+        "stream_sec": 2.357,
+        "mps_compute_ms": 231.73,
+        "peak_z_slice": 1,
+        "peak_z_depth_um": 1.13,
+        "dehalo_snr_gain": 0.4848
+      },
+      {
+        "id": "Sub#5",
+        "role": "Upper-Mid Subscriptio Line 1 Left (Author Stem ΦΙΛΟΔΗ-)",
+        "l2_yx": [
+          1239,
+          9250
+        ],
+        "xyz_2p4um": [
+          18326.1,
+          17204.5,
+          54707.4
+        ],
+        "xyz_1p129um": [
+          26245,
+          25341,
+          56498
+        ],
+        "stream_sec": 2.121,
+        "mps_compute_ms": 232.26,
+        "peak_z_slice": 45,
+        "peak_z_depth_um": 50.8,
+        "dehalo_snr_gain": 0.4868
+      }
+    ],
+    "jev_verification": {
+      "model": "jev-1.14.0",
+      "answers": {
+        "complete_five_station_mosaic_verified": {
+          "type": "noul",
+          "noul": 0.74
+        },
+        "best_subscriptio_colophon_restoration": {
+          "type": "choice",
+          "choice": "philodemus_peri_aistheseos_or_hedones",
+          "confidence": 1.0,
+          "probabilities": {
+            "philodemus_peri_aistheseos_or_hedones": 1.0,
+            "philodemus_peri_kakion": 0.0,
+            "stoic_chrysippus_logika": 0.0
+          }
+        },
+        "title_prize_readiness_score": {
+          "type": "score",
+          "score": 2.97,
+          "confidence": 0.97,
+          "legend": {
+            "0": "No 1.129 µm data streamed; unverified coordinates.",
+            "1": "Only coarse 2.400 µm preview without 1.129 µm sub-micron verification.",
+            "2": "Partial 1.129 µm streaming (only 1–2 hotspots) without a full 5-station mosaic.",
+            "3": "Complete 5-station (`Sub#1..Sub#5`) 1.129 µm Level-0 mosaic + Short Final Column reading (`ΜΕΝ ΚΡΙΝΕΙΝ ΤΑ ΔΕ...`) ready for immediate Monthly Progress Prize and Title Prize review.",
+            "4": "Physically unrolled scroll in a museum display case."
+          },
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.01,
+            "2": 0.01,
+            "3": 0.97,
+            "4": 0.01
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 3666,
+        "output_tokens": 130
+      },
+      "latency_ms": 705.99,
+      "answers_sha256": "d3fad9d5fd2321a7bc83b1115ea357a5a04f8993bfa62ff642341dfe83bae527"
+    }
+  },
+  "phase8_engine_a_v2_benchmark": {
+    "baseline_neural_metrics": {
+      "roc_auc": 0.8858,
+      "average_precision": 0.4971,
+      "best_dice_f1": 0.5352,
+      "optimal_threshold": 0.85,
+      "false_positive_rate_at_opt": 0.0817
+    },
+    "engine_a_v1_metrics": {
+      "roc_auc": 0.8949,
+      "average_precision": 0.4521,
+      "best_dice_f1": 0.5457,
+      "optimal_threshold": 0.49,
+      "false_positive_rate_at_opt": 0.0746
+    },
+    "engine_a_v2_metrics": {
+      "roc_auc": 0.8972,
+      "average_precision": 0.4688,
+      "best_dice_f1": 0.5559,
+      "optimal_threshold": 0.58,
+      "false_positive_rate_at_opt": 0.0663
+    },
+    "engine_a_v2_crackle_reduction_pct": -18.85,
+    "jev_verification": {
+      "model": "jev-1.14.0",
+      "answers": {
+        "anisotropic_inverse_upgrade_verified": {
+          "type": "noul",
+          "noul": 0.91
+        },
+        "most_impactful_rabbit_hole_mechanism": {
+          "type": "choice",
+          "choice": "combined_wiener_anisotropic_raycast",
+          "confidence": 1.0,
+          "probabilities": {
+            "combined_wiener_anisotropic_raycast": 1.0,
+            "pure_isotropic_blurring": 0.0,
+            "random_threshold_clipping": 0.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 2614,
+        "output_tokens": 102
+      },
+      "latency_ms": 447.9,
+      "answers_sha256": "685407c2d432df632ff75646728793493a87daa75cdb7366a502aa7e0123abe1"
+    }
+  }
+}

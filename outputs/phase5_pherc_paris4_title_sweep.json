@@ -1,0 +1,191 @@
+{
+  "target_scroll": "PHerc. Paris. 4 (Scroll 1 — $50,000 Title Prize Target)",
+  "segment_id": "20260701183124-w010-027 (Innermost Windings 10..27 around Umbilicus)",
+  "surface_volume_zarr": "s3://vesuvius-challenge-open-data/PHercParis4/segments/20260701183124-w010-027/surface-volumes/2.4um-0.22m-78keV-volume-20260411134726.zarr",
+  "level0_full_dimensions_zyx": [
+    109,
+    69760,
+    170000
+  ],
+  "physical_strip_size_mm_yx": [
+    167.42,
+    408.0
+  ],
+  "short_final_column_l2_bbox_yx": [
+    40,
+    1040,
+    5650,
+    7250
+  ],
+  "streamed_subscriptio_slab_l3_zyx": [
+    [
+      22,
+      87
+    ],
+    [
+      4400,
+      4912
+    ],
+    [
+      15014,
+      15526
+    ]
+  ],
+  "streamed_slab_shape": [
+    65,
+    512,
+    512
+  ],
+  "stream_time_sec": 3.212,
+  "mps_3d_structure_tensor_ms": 576.76,
+  "mps_neural_inference_ms": 2208.17,
+  "top5_agraphon_subscriptio_hotspots": [
+    {
+      "rank": 1,
+      "l4_yx": [
+        527,
+        2296
+      ],
+      "l2_yx": [
+        2109,
+        9186
+      ],
+      "surface_vol_l3_yx": [
+        4218,
+        18372
+      ],
+      "surface_vol_l0_yx_2p4um": [
+        33744,
+        146976
+      ],
+      "physical_mm_yx": [
+        80.99,
+        352.74
+      ],
+      "mean_ink3d_intensity": 111.11
+    },
+    {
+      "rank": 2,
+      "l4_yx": [
+        407,
+        2335
+      ],
+      "l2_yx": [
+        1630,
+        9342
+      ],
+      "surface_vol_l3_yx": [
+        3260,
+        18684
+      ],
+      "surface_vol_l0_yx_2p4um": [
+        26080,
+        149472
+      ],
+      "physical_mm_yx": [
+        62.59,
+        358.73
+      ],
+      "mean_ink3d_intensity": 101.64
+    },
+    {
+      "rank": 3,
+      "l4_yx": [
+        309,
+        2337
+      ],
+      "l2_yx": [
+        1236,
+        9349
+      ],
+      "surface_vol_l3_yx": [
+        2472,
+        18698
+      ],
+      "surface_vol_l0_yx_2p4um": [
+        19776,
+        149584
+      ],
+      "physical_mm_yx": [
+        47.46,
+        359.0
+      ],
+      "mean_ink3d_intensity": 88.01
+    },
+    {
+      "rank": 4,
+      "l4_yx": [
+        581,
+        1908
+      ],
+      "l2_yx": [
+        2327,
+        7635
+      ],
+      "surface_vol_l3_yx": [
+        4654,
+        15270
+      ],
+      "surface_vol_l0_yx_2p4um": [
+        37232,
+        122160
+      ],
+      "physical_mm_yx": [
+        89.36,
+        293.18
+      ],
+      "mean_ink3d_intensity": 83.92
+    },
+    {
+      "rank": 5,
+      "l4_yx": [
+        309,
+        2312
+      ],
+      "l2_yx": [
+        1239,
+        9250
+      ],
+      "surface_vol_l3_yx": [
+        2478,
+        18500
+      ],
+      "surface_vol_l0_yx_2p4um": [
+        19824,
+        148000
+      ],
+      "physical_mm_yx": [
+        47.58,
+        355.2
+      ],
+      "mean_ink3d_intensity": 81.83
+    }
+  ],
+  "librarian_subscriptio_colophon_priors": [
+    {
+      "greek_subscriptio": "ΕΠΙΚΟΥΡΟΥΠΕΡΙΦΥCΕΩC",
+      "english_title": "Of Epicurus: On Nature (Peri Physeos)",
+      "log_prior_score_per_char": 0.302
+    },
+    {
+      "greek_subscriptio": "ΦΙΛΟΔΗΜΟΥΠΕΡΙΡΗΤΟΡΙΚΗC",
+      "english_title": "Of Philodemus: On Rhetoric (Peri Rhetorikes)",
+      "log_prior_score_per_char": 0.187
+    },
+    {
+      "greek_subscriptio": "ΦΙΛΟΔΗΜΟΥΠΕΡΙΜΟΥCΙΚΗC",
+      "english_title": "Of Philodemus: On Music (Peri Mousikes)",
+      "log_prior_score_per_char": 0.179
+    },
+    {
+      "greek_subscriptio": "ΦΙΛΟΔΗΜΟΥΠΕΡΙΘΕΩΝ",
+      "english_title": "Of Philodemus: On the Gods (Peri Theon)",
+      "log_prior_score_per_char": -0.264
+    },
+    {
+      "greek_subscriptio": "ΦΙΛΟΔΗΜΟΥΠΕΡΙΚΑΚΙΩΝ",
+      "english_title": "Of Philodemus: On Vices (Peri Kakion)",
+      "log_prior_score_per_char": -0.489
+    }
+  ]
+}

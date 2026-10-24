@@ -1,0 +1,175 @@
+{
+  "decode_runtime_ms": 110.0,
+  "real_pherc1667_w029_patch_decoding": {
+    "cells": [
+      {
+        "name": "Cell 1 (Left)",
+        "bbox_yx": [
+          175,
+          345,
+          25,
+          190
+        ],
+        "top3_visual": [
+          [
+            "Γ",
+            2.317
+          ],
+          [
+            "C",
+            1.834
+          ],
+          [
+            "Ρ",
+            1.772
+          ]
+        ]
+      },
+      {
+        "name": "Cell 2 (Center — GT Labeled)",
+        "bbox_yx": [
+          175,
+          345,
+          195,
+          345
+        ],
+        "top3_visual": [
+          [
+            "Θ",
+            2.041
+          ],
+          [
+            "Ε",
+            1.673
+          ],
+          [
+            "Ψ",
+            1.547
+          ]
+        ]
+      },
+      {
+        "name": "Cell 3 (Right — GT Labeled)",
+        "bbox_yx": [
+          165,
+          335,
+          350,
+          485
+        ],
+        "top3_visual": [
+          [
+            "Ρ",
+            2.948
+          ],
+          [
+            "Ε",
+            2.772
+          ],
+          [
+            "Β",
+            2.301
+          ]
+        ]
+      }
+    ],
+    "visual_only_top1": "ΓΘΡ",
+    "librarian_bayesian_decoded": "ΓΑΡ",
+    "top3_beams": [
+      [
+        9.06,
+        "ΓΑΡ"
+      ],
+      [
+        6.31,
+        "ΠΑΡ"
+      ],
+      [
+        6.29,
+        "ΠΕΡ"
+      ]
+    ]
+  },
+  "herculaneum_lacuna_benchmark": {
+    "total_characters_evaluated": 157,
+    "visual_only_character_accuracy_pct": 60.51,
+    "librarian_bayesian_character_accuracy_pct": 95.54,
+    "character_accuracy_gain_pts": 35.03,
+    "lacuna_positions_evaluated": 30,
+    "visual_only_lacuna_accuracy_pct": 0.0,
+    "librarian_bayesian_lacuna_recovery_pct": 96.67,
+    "passages": [
+      {
+        "id": "PHerc.Paris.4 (Scroll 1 — 2.4µm / 1.1µm Passage)",
+        "work": "Epicurean Ethical Treatise (Scroll 1, `37_2026_open_problems.md` §3)",
+        "ground_truth": "ΟΥΔΕΓΑΡΤΑΜΕΛΛΟΝΤΑΤΕΛΕΙCΘΑΙ",
+        "leiden_damaged": "]ΟΥΔΕΓΑΡ[..]ΜΕΛΛΟΝ[..]ΤΕΛΕΙCΘΑΙ[",
+        "visual_only_decoded": "ΘΥΔΕΤΑΡΓΛΜΕΛΑΟΝΓΛΤΕΛCΙΕΟΛΙ",
+        "librarian_bayesian_decoded": "ΟΥΔΕΤΑΡΙΑΜΕΛΛΟΝΤΑΤΕΛΕΙCΘΑΙ",
+        "visual_char_accuracy_pct": 57.69,
+        "bayesian_char_accuracy_pct": 92.31,
+        "lacuna_recovery_pct": 83.33,
+        "english_translation": "For neither [are] future things to be accomplished..."
+      },
+      {
+        "id": "PHerc.1497 (Philodemus, De Musica IV — Herculanensium Voluminum I)",
+        "work": "Philodemi De Musica Liber IV (`b30454761_0001` / `BSG_8XSUP76_145`)",
+        "ground_truth": "ΦΙΛΟΔΗΜΟΥΠΕΡΙΜΟΥCΙΚΗCΔ",
+        "leiden_damaged": "ΦΙΛΟ[..]ΜΟΥΠΕΡΙΜΟΥ[..]ΚΗCΔ",
+        "visual_only_decoded": "ΨΙΛΟΛΠΜΟΤΠΕΡΤΜΟΥΕΤΚΗΕΔ",
+        "librarian_bayesian_decoded": "ΦΙΛΟΔΗΜΟΥΠΕΡΙΜΟΥCΙΚΗCΑ",
+        "visual_char_accuracy_pct": 63.64,
+        "bayesian_char_accuracy_pct": 95.45,
+        "lacuna_recovery_pct": 100.0,
+        "english_translation": "Of Philodemus: On Music, Book 4 (Subscriptio Title Colophon)"
+      },
+      {
+        "id": "PHerc.1065 (Philodemus, De Signis / On Methods of Inference)",
+        "work": "Philodemi De Signis (`philodemusonmeth00phil`)",
+        "ground_truth": "ΗΚΑΤΑΤΗΝΟΜΟΙΟΤΗΤΑΜΕΤΑΒΑCΙC",
+        "leiden_damaged": "ΗΚΑΤΑΤΗΝΟΜΟ[..]ΤΗΤΑΜΕΤΑ[..]CΙC",
+        "visual_only_decoded": "ΠΚΑΤΛΤΗΝΘΜΟΤΘΤΗΤΛΜΕΤΛΡΛCΤC",
+        "librarian_bayesian_decoded": "ΗΚΑΤΑΤΗΝΟΜΟΙΟΤΗΤΑΜΕΤΑΒΑCΙC",
+        "visual_char_accuracy_pct": 61.54,
+        "bayesian_char_accuracy_pct": 100.0,
+        "lacuna_recovery_pct": 100.0,
+        "english_translation": "The inductive transition (metabasis) according to similarity (homoiotes)"
+      },
+      {
+        "id": "PHerc.172 (Scroll 5 — Philodemus Ethical / Epistemological Treatise)",
+        "work": "Scroll 5 (`PHerc. 172` Oxford/Vesuvius First Title & Columns)",
+        "ground_truth": "ΠΕΡΙΚΕΝΟΔΟΞΙΑCΚΑΙΔΙΑΘΕCΕΩC",
+        "leiden_damaged": "ΠΕΡΙΚΕΝΟ[..]ΞΙΑCΚΑΙΔΙΑ[..]CΕΩC",
+        "visual_only_decoded": "ΗΕΡΙΧΕΝΟΛΘΞΙΛCΚΑΤΔΙΑΟCCΕΟC",
+        "librarian_bayesian_decoded": "ΠΕΡΙΚΕΝΟΔΟΞΙΑCΚΑΙΔΙΑΘΕCΕΩC",
+        "visual_char_accuracy_pct": 65.38,
+        "bayesian_char_accuracy_pct": 100.0,
+        "lacuna_recovery_pct": 100.0,
+        "english_translation": "On vain conceit (kenodoxia) and mental disposition (diathesis)"
+      },
+      {
+        "id": "Epicurus, Peri Physeos / Epistula ad Herodotum (`Usener` / `Bailey`)",
+        "work": "Epicurea (`HermannUsenerEpicurea1887` / `Bailey 1926`)",
+        "ground_truth": "ΑΤΑΡΑΞΙΑΚΑΙΠΡΟΛΗΨΙCΚΑΙΤΟΚΕΝΟΝ",
+        "leiden_damaged": "ΑΤΑ[..]ΞΙΑΚΑΙΠΡΟ[..]ΨΙCΚΑΙΤΟΚΕ[..]Ν",
+        "visual_only_decoded": "ΛΤΑΒΛΞΙΑΧΑΙΠΒΟΑΠΦΙCΚΛΙΤΟΧΕΗΘΗ",
+        "librarian_bayesian_decoded": "ΑΤΑΡΑΞΙΑΚΑΙΠΡΟΛΗΨΙCΘΑΙΤΟΜΕΝΟΝ",
+        "visual_char_accuracy_pct": 55.17,
+        "bayesian_char_accuracy_pct": 93.1,
+        "lacuna_recovery_pct": 100.0,
+        "english_translation": "Untroubledness (ataraxia) and preconception (prolepsis) and the void (to kenon)"
+      },
+      {
+        "id": "PHerc.1667 (Scroll 4 — 2026 Full Virtual Unwrapping Passage)",
+        "work": "Philodemean Treatise (`PHerc. 1667` Winding w029)",
+        "ground_truth": "ΚΑΘΑΠΕΡΗΑΙCΘΗCΙCΚΑΙΗΦΑΝΤΑCΙΑ",
+        "leiden_damaged": "ΚΑΘΑ[..]ΡΗΑΙCΘΗ[..]CΚΑΙΗΦΑΝ[..]CΙΑ",
+        "visual_only_decoded": "ΧΑΘΑΗCΡΗΛΙCΘΠΕΤCΧΑΙΗΨΑΝΓΛCΙΑ",
+        "librarian_bayesian_decoded": "ΚΑΘΑΠΕΡΙΑΙCΘΗCΙCΚΑΙΑΦΑΝΤΑCΙΑ",
+        "visual_char_accuracy_pct": 60.71,
+        "bayesian_char_accuracy_pct": 92.86,
+        "lacuna_recovery_pct": 100.0,
+        "english_translation": "Just as (kathaper) sense-perception (aisthesis) and impression (phantasia)"
+      }
+    ]
+  }
+}

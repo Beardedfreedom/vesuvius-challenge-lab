@@ -1,0 +1,64 @@
+{
+  "scroll_id": "PHerc1667",
+  "segment_id": "20251212185248-w029_20251212185248662_flatboi",
+  "voxel_size_um": 2.399,
+  "lateral_pixel_um": 19.192,
+  "beam_energy_keV": 78.0,
+  "propagation_distance_m": 0.22,
+  "remote_volume_shape": [
+    109,
+    4750,
+    3915
+  ],
+  "slab_shape": [
+    65,
+    512,
+    512
+  ],
+  "z_window": [
+    22,
+    87
+  ],
+  "y_window": [
+    2176,
+    2688
+  ],
+  "x_window": [
+    2176,
+    2688
+  ],
+  "physical_patch_mm": [
+    9.826,
+    9.826
+  ],
+  "physical_depth_um": 155.94,
+  "slab_megabytes": 16.25,
+  "stream_seconds": 4.534,
+  "total_io_seconds": 8.776,
+  "ink_gt_positive_fraction": 0.096,
+  "supervision_positive_fraction": 0.3629,
+  "tifxyz_mesh_meta": {
+    "area_vx2": 982361216.577725,
+    "bbox": [
+      [
+        2739.919189453125,
+        1691.0023193359375,
+        3277.6572265625
+      ],
+      [
+        12575.4287109375,
+        11316.0810546875,
+        37209.84375
+      ]
+    ],
+    "format": "tifxyz",
+    "scale": [
+      0.05000000074505806,
+      0.05000000074505806
+    ],
+    "type": "seg",
+    "uuid": "out"
+  },
+  "mps_device": "mps",
+  "mps_compute_ms": 342.98
+}

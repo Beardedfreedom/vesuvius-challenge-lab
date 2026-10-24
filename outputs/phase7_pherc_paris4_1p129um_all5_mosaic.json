@@ -1,0 +1,211 @@
+{
+  "zoom_volume_zarr": "s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260608103018-1.129um-0.2m-78keV-masked.zarr",
+  "reading_order_stations": [
+    "Sub#5",
+    "Sub#3",
+    "Sub#2",
+    "Sub#1",
+    "Sub#4"
+  ],
+  "hotspots_all5_telemetry": [
+    {
+      "id": "Sub#1",
+      "role": "Lower-Right Subscriptio Line 2 (Title/Book Number Zone)",
+      "l2_yx": [
+        2109,
+        9186
+      ],
+      "xyz_2p4um": [
+        20304.9,
+        14578.2,
+        42772.3
+      ],
+      "xyz_1p129um": [
+        30531,
+        19760,
+        31161
+      ],
+      "stream_sec": 4.042,
+      "mps_compute_ms": 853.73,
+      "peak_z_slice": 20,
+      "peak_z_depth_um": 22.58,
+      "dehalo_snr_gain": 0.4893
+    },
+    {
+      "id": "Sub#2",
+      "role": "Mid-Right Subscriptio Line 1–2 Transition (ΠΕΡΙ ... Zone)",
+      "l2_yx": [
+        1630,
+        9342
+      ],
+      "xyz_2p4um": [
+        16636.3,
+        15547.3,
+        49395.5
+      ],
+      "xyz_1p129um": [
+        22707,
+        21749,
+        45222
+      ],
+      "stream_sec": 3.665,
+      "mps_compute_ms": 231.31,
+      "peak_z_slice": 30,
+      "peak_z_depth_um": 33.87,
+      "dehalo_snr_gain": 0.4861
+    },
+    {
+      "id": "Sub#3",
+      "role": "Upper-Right Subscriptio Line 1 Right (Genitive Author Ending -ΜΟΥ)",
+      "l2_yx": [
+        1236,
+        9349
+      ],
+      "xyz_2p4um": [
+        16872.1,
+        17200.6,
+        55049.1
+      ],
+      "xyz_1p129um": [
+        23157,
+        25294,
+        57223
+      ],
+      "stream_sec": 4.211,
+      "mps_compute_ms": 231.33,
+      "peak_z_slice": 50,
+      "peak_z_depth_um": 56.45,
+      "dehalo_snr_gain": 0.4873
+    },
+    {
+      "id": "Sub#4",
+      "role": "Left-Margin Agraphon Koronis / Stichometric Marker Zone",
+      "l2_yx": [
+        2327,
+        7635
+      ],
+      "xyz_2p4um": [
+        19277.3,
+        13710.2,
+        39308.6
+      ],
+      "xyz_1p129um": [
+        28376,
+        17872,
+        23807
+      ],
+      "stream_sec": 2.357,
+      "mps_compute_ms": 231.73,
+      "peak_z_slice": 1,
+      "peak_z_depth_um": 1.13,
+      "dehalo_snr_gain": 0.4848
+    },
+    {
+      "id": "Sub#5",
+      "role": "Upper-Mid Subscriptio Line 1 Left (Author Stem ΦΙΛΟΔΗ-)",
+      "l2_yx": [
+        1239,
+        9250
+      ],
+      "xyz_2p4um": [
+        18326.1,
+        17204.5,
+        54707.4
+      ],
+      "xyz_1p129um": [
+        26245,
+        25341,
+        56498
+      ],
+      "stream_sec": 2.121,
+      "mps_compute_ms": 232.26,
+      "peak_z_slice": 45,
+      "peak_z_depth_um": 50.8,
+      "dehalo_snr_gain": 0.4868
+    }
+  ],
+  "unrolled_1p129um_mosaic_shape": [
+    256,
+    1328
+  ],
+  "unrolled_l0_ink_mosaic_shape": [
+    512,
+    3904
+  ],
+  "engine_b_colophon_scores": {
+    "philodemus_peri_aistheseos": {
+      "greek_colophon": "ΦΙΛΟΔΗΜΟΥΠΕΡΙΑΙCΘΗCΕΩC",
+      "length_chars": 22,
+      "total_log_prob": 3.12,
+      "mean_log_prob_per_char": 0.142
+    },
+    "philodemus_peri_hedones": {
+      "greek_colophon": "ΦΙΛΟΔΗΜΟΥΠΕΡΙΗΔΟΝΗC",
+      "length_chars": 19,
+      "total_log_prob": 9.24,
+      "mean_log_prob_per_char": 0.486
+    },
+    "philodemus_peri_kakion": {
+      "greek_colophon": "ΦΙΛΟΔΗΜΟΥΠΕΡΙΚΑΚΙΩΝ",
+      "length_chars": 19,
+      "total_log_prob": -9.3,
+      "mean_log_prob_per_char": -0.489
+    },
+    "epicurus_peri_physeos": {
+      "greek_colophon": "ΕΠΙΚΟΥΡΟΥΠΕΡΙΦΥCΕΩC",
+      "length_chars": 19,
+      "total_log_prob": 5.73,
+      "mean_log_prob_per_char": 0.302
+    },
+    "stoic_chrysippus_logika": {
+      "greek_colophon": "ΧΡΥCΙΠΠΟΥΛΟΓΙΚΩΝΖΗΤΗΜΑΤΩΝ",
+      "length_chars": 25,
+      "total_log_prob": -54.45,
+      "mean_log_prob_per_char": -2.178
+    }
+  },
+  "jev_multimodal_verification": {
+    "model": "jev-1.14.0",
+    "answers": {
+      "complete_five_station_mosaic_verified": {
+        "type": "noul",
+        "noul": 0.74
+      },
+      "best_subscriptio_colophon_restoration": {
+        "type": "choice",
+        "choice": "philodemus_peri_aistheseos_or_hedones",
+        "confidence": 1.0,
+        "probabilities": {
+          "philodemus_peri_aistheseos_or_hedones": 1.0,
+          "philodemus_peri_kakion": 0.0,
+          "stoic_chrysippus_logika": 0.0
+        }
+      },
+      "title_prize_readiness_score": {
+        "type": "score",
+        "score": 2.97,
+        "confidence": 0.97,
+        "legend": {
+          "0": "No 1.129 µm data streamed; unverified coordinates.",
+          "1": "Only coarse 2.400 µm preview without 1.129 µm sub-micron verification.",
+          "2": "Partial 1.129 µm streaming (only 1–2 hotspots) without a full 5-station mosaic.",
+          "3": "Complete 5-station (`Sub#1..Sub#5`) 1.129 µm Level-0 mosaic + Short Final Column reading (`ΜΕΝ ΚΡΙΝΕΙΝ ΤΑ ΔΕ...`) ready for immediate Monthly Progress Prize and Title Prize review.",
+          "4": "Physically unrolled scroll in a museum display case."
+        },
+        "probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.01,
+          "3": 0.97,
+          "4": 0.01
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 3666,
+      "output_tokens": 130
+    },
+    "latency_ms": 705.99,
+    "answers_sha256": "d3fad9d5fd2321a7bc83b1115ea357a5a04f8993bfa62ff642341dfe83bae527"
+  }
+}

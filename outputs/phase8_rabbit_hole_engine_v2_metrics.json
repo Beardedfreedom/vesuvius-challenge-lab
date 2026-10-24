@@ -1,0 +1,52 @@
+{
+  "rabbit_hole_expedition_report": "/Users/macstudio/Documents/Codex/vesuvius-challenge-lab/reports/phase8_ct_reconstruction_rabbit_hole_expedition.md",
+  "baseline_neural_metrics": {
+    "roc_auc": 0.8858,
+    "average_precision": 0.4971,
+    "best_dice_f1": 0.5352,
+    "optimal_threshold": 0.85,
+    "false_positive_rate_at_opt": 0.0817
+  },
+  "engine_a_v1_metrics": {
+    "roc_auc": 0.8949,
+    "average_precision": 0.4521,
+    "best_dice_f1": 0.5457,
+    "optimal_threshold": 0.49,
+    "false_positive_rate_at_opt": 0.0746
+  },
+  "engine_a_v2_metrics": {
+    "roc_auc": 0.8972,
+    "average_precision": 0.4688,
+    "best_dice_f1": 0.5559,
+    "optimal_threshold": 0.58,
+    "false_positive_rate_at_opt": 0.0663
+  },
+  "engine_a_v1_crackle_reduction_pct": -8.69,
+  "engine_a_v2_crackle_reduction_pct": -18.85,
+  "mps_compute_ms": 599.58,
+  "jev_verification": {
+    "model": "jev-1.14.0",
+    "answers": {
+      "anisotropic_inverse_upgrade_verified": {
+        "type": "noul",
+        "noul": 0.91
+      },
+      "most_impactful_rabbit_hole_mechanism": {
+        "type": "choice",
+        "choice": "combined_wiener_anisotropic_raycast",
+        "confidence": 1.0,
+        "probabilities": {
+          "combined_wiener_anisotropic_raycast": 1.0,
+          "pure_isotropic_blurring": 0.0,
+          "random_threshold_clipping": 0.0
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 2614,
+      "output_tokens": 102
+    },
+    "latency_ms": 447.9,
+    "answers_sha256": "685407c2d432df632ff75646728793493a87daa75cdb7366a502aa7e0123abe1"
+  }
+}

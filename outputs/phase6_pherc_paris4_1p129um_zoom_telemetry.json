@@ -1,0 +1,167 @@
+{
+  "zoom_volume_zarr": "s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260608103018-1.129um-0.2m-78keV-masked.zarr",
+  "zoom_volume_level0_shape_zyx": [
+    59969,
+    36006,
+    32354
+  ],
+  "all_5_hotspots_in_1p129um_bounds": true,
+  "hotspots_1p129um": [
+    {
+      "id": "Sub#1",
+      "l2_yx": [
+        2109,
+        9186
+      ],
+      "xyz_2p4um": [
+        20304.9,
+        14578.2,
+        42772.3
+      ],
+      "xyz_1p129um": [
+        30531,
+        19760,
+        31161
+      ]
+    },
+    {
+      "id": "Sub#2",
+      "l2_yx": [
+        1630,
+        9342
+      ],
+      "xyz_2p4um": [
+        16636.3,
+        15547.3,
+        49395.5
+      ],
+      "xyz_1p129um": [
+        22707,
+        21749,
+        45222
+      ]
+    },
+    {
+      "id": "Sub#3",
+      "l2_yx": [
+        1236,
+        9349
+      ],
+      "xyz_2p4um": [
+        16872.1,
+        17200.6,
+        55049.1
+      ],
+      "xyz_1p129um": [
+        23157,
+        25294,
+        57223
+      ]
+    },
+    {
+      "id": "Sub#4",
+      "l2_yx": [
+        2327,
+        7635
+      ],
+      "xyz_2p4um": [
+        19277.3,
+        13710.2,
+        39308.6
+      ],
+      "xyz_1p129um": [
+        28376,
+        17872,
+        23807
+      ]
+    },
+    {
+      "id": "Sub#5",
+      "l2_yx": [
+        1239,
+        9250
+      ],
+      "xyz_2p4um": [
+        18326.1,
+        17204.5,
+        54707.4
+      ],
+      "xyz_1p129um": [
+        26245,
+        25341,
+        56498
+      ]
+    }
+  ],
+  "sub1_stream_sec": 4.042,
+  "sub2_stream_sec": 3.665,
+  "sub1_mps_dehalo_tensor_ms": 330.75,
+  "sub2_mps_dehalo_tensor_ms": 230.57,
+  "ct_physics_1p129um": {
+    "voxel_size_um": 1.129,
+    "photon_energy_kev": 78.0,
+    "wavelength_nm": 0.015895,
+    "propagation_distance_m": 0.225,
+    "fresnel_number_F": 0.3564,
+    "propagation_regime": "Sub-Fresnel / Intermediate Inline Holographic Regime (CTF / Multi-Fringe, F < 1)",
+    "paganin_delta_beta": 500.0,
+    "paganin_diffusion_length_um": 11.93,
+    "unsharp_sigma_voxels": 2.5,
+    "unsharp_physical_sigma_um": 2.82,
+    "nyquist_frequency_cycles_per_mm": 442.9,
+    "peak_passband_frequency_cycles_per_mm": 22.1,
+    "peak_passband_mtf_gain": 0.3461,
+    "composite_bm18_mtf_profile": {
+      "22.1_cycles_per_mm": 0.3461,
+      "44.3_cycles_per_mm": 0.1715,
+      "88.6_cycles_per_mm": 0.0851,
+      "155.0_cycles_per_mm": 0.0361,
+      "221.4_cycles_per_mm": 0.0181,
+      "332.2_cycles_per_mm": 0.0081,
+      "442.9_cycles_per_mm": 0.0045
+    },
+    "recommended_3d_structure_tensor_scales_vx": {
+      "derivative_sigma0_vx": 1.2,
+      "integration_rho_vx": 2.38
+    }
+  },
+  "sovrapposto_audit_final_column": {
+    "input_greek_stream": "ΜΕΝΚΡΙΝΕΙΝΤΑΔΕΚΑΙΤΩΝΕΞΩΚΑΙΕΝΗΜΙΝΝΟΗΘΗΝΑΙΚΑΘΗΔΟΝΗΝ",
+    "length_chars": 49,
+    "mean_librarian_log_prob_per_char": -1.898,
+    "worst_transition_log_prob": -5.516,
+    "worst_transition_index": 22,
+    "worst_transition_context": "ΝΕΞΩΚΑΙ",
+    "sovrapposto_sheet_switch_alert": false,
+    "verdict": "PASS: Coherent Philodemean/Epicurean Greek stream (Zero sheet-switch anomalies)."
+  },
+  "jev_multimodal_verification": {
+    "model": "jev-1.14.0",
+    "answers": {
+      "all_hotspots_inside_zoom_roi_verified": {
+        "type": "noul",
+        "noul": 0.85
+      },
+      "sub_fresnel_holographic_regime_verified": {
+        "type": "noul",
+        "noul": 0.97
+      },
+      "first_line_final_column_reading": {
+        "type": "choice",
+        "choice": "men_krinein_ta_de",
+        "confidence": 0.98,
+        "probabilities": {
+          "men_krinein_ta_de": 0.99,
+          "corrupted_sovrapposto": 0.01,
+          "latin_documentary_roll": 0.0
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 3316,
+      "output_tokens": 118
+    },
+    "latency_ms": 581.36,
+    "answers_sha256": "acefc842bc14b10f975c2026eac174b1392a3ca35f70780d0b986831ce72223a"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "device": "mps",
+  "structure_tensor_ms": 560.6,
+  "resnet3d_50_mps_infer_ms": 2028.07,
+  "baseline_neural_metrics": {
+    "roc_auc": 0.8858,
+    "average_precision": 0.4971,
+    "best_dice_f1": 0.5352,
+    "optimal_threshold": 0.85,
+    "false_positive_rate_at_opt": 0.0817
+  },
+  "engine_a_fused_metrics": {
+    "roc_auc": 0.8949,
+    "average_precision": 0.4521,
+    "best_dice_f1": 0.5457,
+    "optimal_threshold": 0.49,
+    "false_positive_rate_at_opt": 0.0746
+  },
+  "dice_f1_improvement_pts": 1.05,
+  "roc_auc_improvement_pts": 0.91,
+  "false_positive_crackle_reduction_pct": 8.69
+}
