@@ -1,5 +1,5 @@
 # Phase 2: `/librarian` Primary-Source Herculaneum & Epicurean Corpus Dossier
-*Mined from **9 Digitized Primary-Source Volumes** in `/Users/macstudio/.config/librarian/books_cache/` | **5,101,349 Total Characters** | **171,569 Ancient Greek Tokens***
+*Mined from **20 Digitized Primary-Source Volumes** in `/Users/macstudio/.config/librarian/books_cache/` | **6,837,356 Total Characters** | **199,572 Ancient Greek Tokens***
 
 ## 1. Cached Primary-Source Volumes (`/Users/macstudio/.config/librarian/books_cache/`)
 
@@ -14,6 +14,17 @@
 | `Vogliano1928PHerc176EpicuriEtEpicureorumScriptaInHerculanensibusPapyrisServata` | 1928 | Achille Vogliano | *Epicuri et Epicureorum Scripta in Herculanensibus Papyris Servata (PHerc. 176)* | `53,158` | `0` |
 | `Croenert1906KolotesUndMenedemos` | 1906 | Wilhelm Crönert (Teubner) | *Kolotes und Menedemos: Texte und Untersuchungen zur Philosophen- und Literaturgeschichte* | `817,995` | `0` |
 | `jstor-107613` | 1821 | Sir Humphry Davy (Philosophical Transactions of the Royal Society of London, Vol. 111) | *Some Observations and Experiments on the Papyri Found in the Ruins of Herculaneum* | `32,348` | `0` |
+| `philtrans02820260` | 1821 | Sir Humphry Davy | *Some Observations and Experiments on the Papyri Found in the Ruins of Herculaneum (Royal Society Offprint)* | `31,553` | `0` |
+| `bub_gb_y6fRGlZp9tQC` | 1809 | Regia Academia Herculanensis (ed. Carlo Maria Rosini) | *Herculanensium Voluminum Quae Supersunt, Tomus II (Epicurus On Nature Books II & XI, PHerc. 1149/993 & 1042)* | `265,998` | `0` |
+| `philodemivolumi01sudhgoog` | 1892 | Philodemus of Gadara (ed. Siegfried Sudhaus, Teubner Leipzig) | *Philodemi Volumina Rhetorica, Vol. I* | `464,368` | `0` |
+| `philodemivolumi02sudhgoog` | 1896 | Philodemus of Gadara (ed. Siegfried Sudhaus, Teubner Leipzig) | *Philodemi Volumina Rhetorica, Vol. II* | `173,954` | `0` |
+| `philodemivosupple00philuoft` | 1895 | Philodemus of Gadara (ed. Siegfried Sudhaus, Teubner Leipzig) | *Philodemi Volumina Rhetorica: Supplementum* | `159,931` | `12,290` |
+| `philodemiepicur00philgoog` | 1864 | Philodemus of Gadara (ed. Theodor Gomperz, Teubner Leipzig) | *Philodemi Epicurei De Ira Liber (PHerc. 182)* | `117,175` | `0` |
+| `philodemiperipar00philuoft` | 1914 | Philodemus of Gadara (ed. Alexander Olivieri, Teubner Leipzig) | *Philodemi Peri Parresias Libellus (PHerc. 1471)* | `112,353` | `7,656` |
+| `philodemiperitou00philuoft` | 1909 | Philodemus of Gadara (ed. Alexander Olivieri, Teubner Leipzig) | *Philodemi Peri tou kath' Homeron Agathou Basileos Libellus (PHerc. 1507)* | `147,389` | `8,057` |
+| `bub_gb_oIH5J4zmOyoC` | 1906 | Philodemus of Gadara (ed. Christian Jensen, Teubner Leipzig) | *Philodemi Peri Oikonomias Qui Dicitur Libellus (PHerc. 1424, De Vitiis Book IX)* | `52,145` | `0` |
+| `philodemiperipo00hausgoog` | 1889 | Philodemus of Gadara (ed. August Hausrath, Teubner Leipzig) | *Philodemi Peri Poiematon Libri Secundi Quae Videntur Fragmenta* | `59,257` | `0` |
+| `papiroercolanese00comp` | 1875 | Domenico Comparetti (Loescher Torino) | *Papiro Ercolanese Inedito (PHerc. 1018 — Index Stoicorum Herculanensis)* | `151,884` | `0` |
 
 ## 2. Primary-Source Chemical, Physical & Unrolling Evidence
 

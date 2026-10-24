@@ -59,8 +59,8 @@
   "sovrapposto_audit_authentic_pherc_paris4": {
     "input_greek_stream": "ΜΕΝΚΡΙΝΕΙΝΤΑΔΕΚΑΙΤΩΝΕΞΩΚΑΙΕΝΗΜΙΝΝΟΗΘΗΝΑΙΚΑΘΗΔΟΝΗΝ",
     "length_chars": 49,
-    "mean_librarian_log_prob_per_char": -1.898,
-    "worst_transition_log_prob": -5.516,
+    "mean_librarian_log_prob_per_char": -1.868,
+    "worst_transition_log_prob": -5.477,
     "worst_transition_index": 22,
     "worst_transition_context": "ΝΕΞΩΚΑΙ",
     "sovrapposto_sheet_switch_alert": false,
@@ -69,8 +69,8 @@
   "sovrapposto_audit_simulated_merger": {
     "input_greek_stream": "ΜΕΝΚΡΙΝΕΙΝΤΑΔΕΧΨΖΘΚΛΜΠΡΤΩΝΕΞΩΚΑΙΕΝΗΜΙΝ",
     "length_chars": 38,
-    "mean_librarian_log_prob_per_char": -3.293,
-    "worst_transition_log_prob": -8.417,
+    "mean_librarian_log_prob_per_char": -3.243,
+    "worst_transition_log_prob": -8.464,
     "worst_transition_index": 16,
     "worst_transition_context": "ΕΧΨΖΘΚΛ",
     "sovrapposto_sheet_switch_alert": true,

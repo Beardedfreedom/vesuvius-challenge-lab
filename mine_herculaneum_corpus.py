@@ -93,6 +93,94 @@ PRIMARY_SOURCES = [
         "author": "Sir Humphry Davy (Philosophical Transactions of the Royal Society of London, Vol. 111)",
         "year": 1821,
         "role": "Primary chemical & physical analysis of carbonized Herculaneum papyri and carbon ink"
+    },
+    {
+        "id": "philtrans02820260",
+        "file": "philtrans02820260_djvu.txt",
+        "title": "Some Observations and Experiments on the Papyri Found in the Ruins of Herculaneum (Royal Society Offprint)",
+        "author": "Sir Humphry Davy",
+        "year": 1821,
+        "role": "Complete chemical experiments on fold-deposited charcoal, phosphate of lime ash, and brown vs. black varnished rolls"
+    },
+    {
+        "id": "bub_gb_y6fRGlZp9tQC",
+        "file": "bub_gb_y6fRGlZp9tQC_djvu.txt",
+        "title": "Herculanensium Voluminum Quae Supersunt, Tomus II (Epicurus On Nature Books II & XI, PHerc. 1149/993 & 1042)",
+        "author": "Regia Academia Herculanensis (ed. Carlo Maria Rosini)",
+        "year": 1809,
+        "role": "Neapolitan facsimile edition of Epicurus's Peri Physeos Book II & XI and Carmen de Bello Actiaco (PHerc. 817)"
+    },
+    {
+        "id": "philodemivolumi01sudhgoog",
+        "file": "philodemivolumi01sudhgoog_djvu.txt",
+        "title": "Philodemi Volumina Rhetorica, Vol. I",
+        "author": "Philodemus of Gadara (ed. Siegfried Sudhaus, Teubner Leipzig)",
+        "year": 1892,
+        "role": "Teubner critical edition of Philodemus's Rhetorica Vol. I"
+    },
+    {
+        "id": "philodemivolumi02sudhgoog",
+        "file": "philodemivolumi02sudhgoog_djvu.txt",
+        "title": "Philodemi Volumina Rhetorica, Vol. II",
+        "author": "Philodemus of Gadara (ed. Siegfried Sudhaus, Teubner Leipzig)",
+        "year": 1896,
+        "role": "Teubner critical edition of Philodemus's Rhetorica Vol. II"
+    },
+    {
+        "id": "philodemivosupple00philuoft",
+        "file": "philodemivosupple00philuoft_djvu.txt",
+        "title": "Philodemi Volumina Rhetorica: Supplementum",
+        "author": "Philodemus of Gadara (ed. Siegfried Sudhaus, Teubner Leipzig)",
+        "year": 1895,
+        "role": "Teubner supplement to Philodemus's Rhetorica"
+    },
+    {
+        "id": "philodemiepicur00philgoog",
+        "file": "philodemiepicur00philgoog_djvu.txt",
+        "title": "Philodemi Epicurei De Ira Liber (PHerc. 182)",
+        "author": "Philodemus of Gadara (ed. Theodor Gomperz, Teubner Leipzig)",
+        "year": 1864,
+        "role": "Critical edition of Philodemus's On Anger (Peri Orges, PHerc. 182)"
+    },
+    {
+        "id": "philodemiperipar00philuoft",
+        "file": "philodemiperipar00philuoft_djvu.txt",
+        "title": "Philodemi Peri Parresias Libellus (PHerc. 1471)",
+        "author": "Philodemus of Gadara (ed. Alexander Olivieri, Teubner Leipzig)",
+        "year": 1914,
+        "role": "Teubner critical edition of Philodemus's On Frank Criticism (Ek ton Zenonos Scholon)"
+    },
+    {
+        "id": "philodemiperitou00philuoft",
+        "file": "philodemiperitou00philuoft_djvu.txt",
+        "title": "Philodemi Peri tou kath' Homeron Agathou Basileos Libellus (PHerc. 1507)",
+        "author": "Philodemus of Gadara (ed. Alexander Olivieri, Teubner Leipzig)",
+        "year": 1909,
+        "role": "Teubner critical edition of Philodemus's On the Good King According to Homer"
+    },
+    {
+        "id": "bub_gb_oIH5J4zmOyoC",
+        "file": "bub_gb_oIH5J4zmOyoC_djvu.txt",
+        "title": "Philodemi Peri Oikonomias Qui Dicitur Libellus (PHerc. 1424, De Vitiis Book IX)",
+        "author": "Philodemus of Gadara (ed. Christian Jensen, Teubner Leipzig)",
+        "year": 1906,
+        "role": "Teubner critical edition of Philodemus's On Household Management (Peri Kakion Book IX)"
+    },
+    {
+        "id": "philodemiperipo00hausgoog",
+        "file": "philodemiperipo00hausgoog_djvu.txt",
+        "title": "Philodemi Peri Poiematon Libri Secundi Quae Videntur Fragmenta",
+        "author": "Philodemus of Gadara (ed. August Hausrath, Teubner Leipzig)",
+        "year": 1889,
+        "role": "Teubner edition of Philodemus's On Poems Book II"
+    },
+    {
+        "id": "papiroercolanese00comp",
+        "file": "papiroercolanese00comp_djvu.txt",
+        "title": "Papiro Ercolanese Inedito (PHerc. 1018 — Index Stoicorum Herculanensis)",
+        "author": "Domenico Comparetti (Loescher Torino)",
+        "year": 1875,
+        "role": "Edition of PHerc. 1018 (Philodemus's Syntaxis of the Stoic Philosophers)"
     }
 ]
 

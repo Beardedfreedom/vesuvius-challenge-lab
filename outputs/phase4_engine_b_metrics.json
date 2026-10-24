@@ -1,5 +1,5 @@
 {
-  "decode_runtime_ms": 110.0,
+  "decode_runtime_ms": 181.54,
   "real_pherc1667_w029_patch_decoding": {
     "cells": [
       {
@@ -76,15 +76,15 @@
     "librarian_bayesian_decoded": "ΓΑΡ",
     "top3_beams": [
       [
-        9.06,
+        9.15,
         "ΓΑΡ"
       ],
       [
-        6.31,
+        6.41,
         "ΠΑΡ"
       ],
       [
-        6.29,
+        6.36,
         "ΠΕΡ"
       ]
     ]
@@ -92,8 +92,8 @@
   "herculaneum_lacuna_benchmark": {
     "total_characters_evaluated": 157,
     "visual_only_character_accuracy_pct": 60.51,
-    "librarian_bayesian_character_accuracy_pct": 95.54,
-    "character_accuracy_gain_pts": 35.03,
+    "librarian_bayesian_character_accuracy_pct": 94.9,
+    "character_accuracy_gain_pts": 34.39,
     "lacuna_positions_evaluated": 30,
     "visual_only_lacuna_accuracy_pct": 0.0,
     "librarian_bayesian_lacuna_recovery_pct": 96.67,
@@ -152,9 +152,9 @@
         "ground_truth": "ΑΤΑΡΑΞΙΑΚΑΙΠΡΟΛΗΨΙCΚΑΙΤΟΚΕΝΟΝ",
         "leiden_damaged": "ΑΤΑ[..]ΞΙΑΚΑΙΠΡΟ[..]ΨΙCΚΑΙΤΟΚΕ[..]Ν",
         "visual_only_decoded": "ΛΤΑΒΛΞΙΑΧΑΙΠΒΟΑΠΦΙCΚΛΙΤΟΧΕΗΘΗ",
-        "librarian_bayesian_decoded": "ΑΤΑΡΑΞΙΑΚΑΙΠΡΟΛΗΨΙCΘΑΙΤΟΜΕΝΟΝ",
+        "librarian_bayesian_decoded": "ΑΤΑΡΑΞΙΑΚΑΙΠΡΟΛΗΨΙCΘΑΙΝΟΜΕΝΟΝ",
         "visual_char_accuracy_pct": 55.17,
-        "bayesian_char_accuracy_pct": 93.1,
+        "bayesian_char_accuracy_pct": 89.66,
         "lacuna_recovery_pct": 100.0,
         "english_translation": "Untroubledness (ataraxia) and preconception (prolepsis) and the void (to kenon)"
       },
